@@ -1,0 +1,151 @@
+
+ROM used:   13028/32768 (40%)
+            13028/32768 (40%) including unused fragments
+
+            3.0 Average locations per line
+            11.1 Average locations per statement
+
+RAM used:   365/1536 (24%) at main() level
+            577/1536 (38%) worst case
+
+Stack used: 6 worst case (5 in main + 1 for interrupts)
+Stack size: 31
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  494   216  18  main_oto_dez_kont.c
+   56     0   0  main_oto_dez_kont.h
+ 1032     0   0  C:\Program Files (x86)\PICC\Devices\18F45K22.h
+ 1352   359  31  C:\Program Files (x86)\PICC\Drivers\stdlib.h
+   32     0   0  C:\Program Files (x86)\PICC\Drivers\stddef.h
+  435   129  11  C:\Program Files (x86)\PICC\Drivers\string.h
+   28     0   0  C:\Program Files (x86)\PICC\Drivers\ctype.h
+   33     7   1  timer.c
+   33     0   0  timer.h
+  235    44   4  flex_lcd.c
+   94     0   0  tanimlamalar.h
+  470   414  35  lcd_islem.c
+    4     0   0  donanim_kont.c
+----- -----
+ 4298  1169 Total
+
+Page ROM  %  RAM    Vol Diff  Functions:
+---- --- --- ---    --- ----  ----------
+0     42   0    1             @delay_ms1
+0     38   0    1             @delay_us1
+0     50   0    0             @const720
+0    122   0    0             @const723
+0    152   1    0             @const726
+0    148   1    0             @const729
+0    134   1    0             @const732
+0    126   0    9    305  6.5  strpbrk
+0    148   1    9    365  8.1  strspn
+0     62   0    5    140  5.0  strlen
+0    190   1   10    516  8.6  strtok
+0     90   0   14             @MUL3232
+0     34   0    5             @MUL1616
+0     20   0    0     88  1.7  timer_kur
+0     30   0    0     57  0.6  Timer0_int
+0     20   0    0             @const1015
+0     74   0    1    326  2.8  lcd_send_nibble
+0     68   0    3    235  3.8  lcd_send_byte
+0    112   0    2    380  4.7  lcd_init
+0     38   0    4    186  5.5  lcd_gotoxy
+0     90   0    1    350  1.2  lcd_putc
+0   1874   7    2   6594  9.4  donanim_kontrol
+0      8   0    0             @const1070
+0     32   0    2             @PSTRINGC_1028
+0     18   0    0             @const1075
+0     10   0    0             @const1076
+0     18   0    0             @const1077
+0     36   0    2             @PSTRINGR_1028
+0     12   0    0             @const1081
+0     40   0    3             @PSTRINGCN_1028
+0     10   0    0             @const1084
+0     12   0    0             @const1085
+0     10   0    0             @const1086
+0     18   0    0             @const1087
+0     10   0    0             @const1088
+0     18   0    0             @const1089
+0     14   0    0             @const1090
+0     18   0    0             @const1091
+0     14   0    0             @const1092
+0      8   0    0             @const1093
+0     14   0    0             @const1094
+0      8   0    0             @const1095
+0      8   0    0             @const1096
+0     18   0    0             @const1097
+0     14   0    0             @const1098
+0    198   1    9             @PRINTF_LU_1028
+0     14   0    0             @const1101
+0     38   0    0             @goto63733
+0    510   2    4   1254  6.8  sureAyar
+0     10   0    0             @const1106
+0     44   0    3             @DIV88
+0    130   0    2             @PRINTF_U_1028
+0     18   0    0             @const1113
+0     10   0    0             @const1114
+0     18   0    0             @const1115
+0    518   2    4   1254  6.8  beklemeSureAyar
+0     10   0    0             @const1120
+0     18   0    0             @const1121
+0     10   0    0             @const1122
+0     18   0    0             @const1123
+0    570   2    5   1303  6.8  valfSureAyar
+0     10   0    0             @const1128
+0     18   0    0             @const1129
+0     12   0    0             @const1130
+0     18   0    0             @const1131
+0   1148   4   45   2190  7.4  dil_secim_islemi
+0     18   0    0             @const1143
+0     18   0    0             @const1145
+0      8   0    0             @const1150
+0    960   4    7   3298  7.3  lcdMenuIslem
+0     12   0    0             @const1154
+0     18   0    0             @const1155
+0     18   0    0             @const1157
+0     18   0    0             @const1159
+0     18   0    0             @const1161
+0     18   0    0             @const1163
+0     10   0    0             @const1166
+0     18   0    0             @const1167
+0     18   0    0             @const1169
+0   2650  10    4   7575 10.1  MAIN
+0     16   0    0             @const1173
+0     16   0    0             @const1174
+0    148   1   13             @DIV3232
+0    190   1   12             @PRINTF_L32U_1028
+0     10   0    0             @const1183
+0     10   0    0             @const1185
+0     12   0    0             @const1190
+0     10   0    0             @const1191
+0     12   0    0             @const1192
+0    130   0    6    242  4.5  bipp
+0     66   0    6             @WRITEBITA
+0    110   0    3    361  4.2  sens_adc_oku
+0    340   1  147    411  4.1  dilTxtGetir
+0    102   0   12    422  7.4  splitStr
+0    344   1   10    870  5.4  kul_say_ee_islem
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               23
+    Statements              1169
+    Comments                1219
+    Volume (V)              43345
+    Difficulty (D)          122.9
+    Effort to implement (E) 5325470
+    Time to implement (T)   82 hours, 11 minutes
+    Est Delivered Bugs (B)  10
+    Cyclomatic Complexity   131
+    Maintainability (MI)    19
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-00006     0  4  
+00008-00156   336  0  
+00158-07FFE  12688  19736  
+
+
+

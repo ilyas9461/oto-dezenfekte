@@ -1,0 +1,17 @@
+Compiling D:\EasyPICV6\CCS_PIC_C\proje_oto_dezenfekte_kontrol\src\oto_dez_kont.X\main_oto_dez_kont on 01-Eki-20 at 09:06
+D:\EasyPICV6\CCS_PIC_C\proje_oto_dezenfekte_kontrol\src\oto_dez_kont.X\lcd_islem.c:13:1:  Warning#203  Condition always TRUE
+D:\EasyPICV6\CCS_PIC_C\proje_oto_dezenfekte_kontrol\src\oto_dez_kont.X\lcd_islem.c:215:1:  Warning#206  Variable of this data type is never greater than this constant
+D:\EasyPICV6\CCS_PIC_C\proje_oto_dezenfekte_kontrol\src\oto_dez_kont.X\lcd_islem.c:215:1:  Warning#204  Condition always FALSE
+D:\EasyPICV6\CCS_PIC_C\proje_oto_dezenfekte_kontrol\src\oto_dez_kont.X\lcd_islem.c:252:1:  Warning#206  Variable of this data type is never greater than this constant
+D:\EasyPICV6\CCS_PIC_C\proje_oto_dezenfekte_kontrol\src\oto_dez_kont.X\lcd_islem.c:252:1:  Warning#204  Condition always FALSE
+D:\EasyPICV6\CCS_PIC_C\proje_oto_dezenfekte_kontrol\src\oto_dez_kont.X\lcd_islem.c:364:1:  Warning#203  Condition always TRUE
+D:\EasyPICV6\CCS_PIC_C\proje_oto_dezenfekte_kontrol\src\oto_dez_kont.X\lcd_islem.c:439:1:  Warning#230  String truncated
+D:\EasyPICV6\CCS_PIC_C\proje_oto_dezenfekte_kontrol\src\oto_dez_kont.X\main_oto_dez_kont.c:155:1:  Warning#203  Condition always TRUE
+D:\EasyPICV6\CCS_PIC_C\proje_oto_dezenfekte_kontrol\src\oto_dez_kont.X\timer.h:16:19:  Warning#202  Variable never used:   timer_m1_say
+D:\EasyPICV6\CCS_PIC_C\proje_oto_dezenfekte_kontrol\src\oto_dez_kont.X\timer.h:17:19:  Warning#202  Variable never used:   timer_m2_say
+D:\EasyPICV6\CCS_PIC_C\proje_oto_dezenfekte_kontrol\src\oto_dez_kont.X\timer.h:18:19:  Warning#202  Variable never used:   timer_m3_say
+D:\EasyPICV6\CCS_PIC_C\proje_oto_dezenfekte_kontrol\src\oto_dez_kont.X\timer.c:23:6:  Warning#202  Variable never used:   say
+D:\EasyPICV6\CCS_PIC_C\proje_oto_dezenfekte_kontrol\src\oto_dez_kont.X\main_oto_dez_kont.c:456:23:  Warning#202  Variable never used:   ptr
+      Memory usage:   ROM=40%      RAM=24% - 38%
+      0 Errors,  13 Warnings.
+Build Successful.
