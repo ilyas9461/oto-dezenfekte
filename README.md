@@ -57,7 +57,7 @@ Additionally, a Non-Contact Thermometer device can optionally be placed on the s
 
 ## Sample working video :
 
-<a href="https://www.youtube.com/watch?v=8aHo4yhkyYs" target="_blank">
+<a href="https://www.youtube.com/shorts/9W3VMVikV3s" target="_blank">
      <img src="./img/youtube.png" alt="youtube" width="55">
 </a>
 
